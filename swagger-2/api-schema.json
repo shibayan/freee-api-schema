@@ -2251,26 +2251,20 @@
                         "example": 1
                       },
                       "name": {
-                        "type": [
-                          "string",
-                          "null"
-                        ],
+                        "type": "string",
+                        "x-nullable": true,
                         "description": "事業所名",
                         "example": "freee事務所"
                       },
                       "name_kana": {
-                        "type": [
-                          "string",
-                          "null"
-                        ],
+                        "type": "string",
+                        "x-nullable": true,
                         "description": "事業所名（カナ）",
                         "example": "フリージムショ"
                       },
                       "display_name": {
-                        "type": [
-                          "string",
-                          "null"
-                        ],
+                        "type": "string",
+                        "x-nullable": true,
                         "description": "事業所名",
                         "example": "freee事務所"
                       },
@@ -6753,18 +6747,14 @@
                 "description": "勘定科目名 (30文字以内)"
               },
               "shortcut": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "SOFUTO",
                 "description": "ショートカット1 (20文字以内)"
               },
               "shortcut_num": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "123",
                 "description": "ショートカット2(勘定科目コード) (20文字以内)"
               },
@@ -6794,10 +6784,8 @@
                 "description": "勘定科目の使用設定（true: 使用する、false: 使用しない）"
               },
               "walletable_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "口座ID"
               }
@@ -6874,10 +6862,8 @@
                 "description": "連携サービス種別: (銀行口座: bank_account, クレジットカード: credit_card, 現金: wallet)"
               },
               "name_kana": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "ギンコウ",
                 "description": "連携サービス名(カナ)"
               }
@@ -8899,10 +8885,8 @@
                 "description": "部門名 (30文字以内)"
               },
               "long_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "開発部門",
                 "description": "正式名称 (255文字以内)"
               },
@@ -8912,18 +8896,14 @@
                 "description": "事業所ID"
               },
               "shortcut1": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "DEVELOPER",
                 "description": "ショートカット1 (20文字以内)"
               },
               "shortcut2": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "123",
                 "description": "ショートカット2 (20文字以内)"
               }
@@ -8957,10 +8937,8 @@
               "description": "部門名 (30文字以内)"
             },
             "long_name": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "開発部門",
               "description": "正式名称（255文字以内）"
             },
@@ -8970,18 +8948,14 @@
               "description": "事業所ID"
             },
             "shortcut1": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "DEVELOPER",
               "description": "ショートカット１ (20文字以内)"
             },
             "shortcut2": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "123",
               "description": "ショートカット２ (20文字以内)"
             }
@@ -9014,10 +8988,8 @@
               "description": "部門名 (30文字以内)"
             },
             "long_name": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "開発部門",
               "description": "正式名称 (255文字以内)"
             },
@@ -9027,18 +8999,14 @@
               "description": "事業所ID"
             },
             "shortcut1": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "DEVELOPER",
               "description": "ショートカット１ (20文字以内)"
             },
             "shortcut2": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "123",
               "description": "ショートカット２ (20文字以内)"
             }
@@ -9312,18 +9280,14 @@
                 "description": "品目名 (30文字以内)"
               },
               "shortcut1": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "TAXI",
                 "description": "ショートカット１ (20文字以内)"
               },
               "shortcut2": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "201",
                 "description": "ショートカット２ (20文字以内)"
               }
@@ -9362,18 +9326,14 @@
               "description": "品目名 (30文字以内)"
             },
             "shortcut1": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "NEWITEM",
               "description": "ショートカット１ (20文字以内)"
             },
             "shortcut2": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "202",
               "description": "ショートカット２ (20文字以内)"
             }
@@ -9436,10 +9396,8 @@
           "description": "取引先ID"
         },
         "partner_code": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "code001",
           "description": "取引先コード"
         },
@@ -9526,10 +9484,8 @@
           "description": "取引先ID"
         },
         "partner_code": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "code001",
           "description": "取引先コード"
         },
@@ -9586,18 +9542,14 @@
           "description": "税区分コード"
         },
         "item_id": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "example": 501,
           "description": "品目ID"
         },
         "section_id": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "example": 1,
           "description": "部門ID"
         },
@@ -9614,26 +9566,20 @@
           "description": "メモタグID"
         },
         "segment_1_tag_id": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "example": 1,
           "description": "セグメント１ID"
         },
         "segment_2_tag_id": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "example": 1,
           "description": "セグメント２ID"
         },
         "segment_3_tag_id": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "example": 1,
           "description": "セグメント３ID"
         },
@@ -9784,19 +9730,15 @@
                 "description": "税区分コード"
               },
               "item_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "品目ID",
                 "maximum": 999999999999
               },
               "section_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "部門ID",
                 "maximum": 999999999999
@@ -9811,26 +9753,20 @@
                 }
               },
               "segment_1_tag_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "セグメント１ID"
               },
               "segment_2_tag_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "セグメント２ID"
               },
               "segment_3_tag_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "セグメント３ID"
               },
@@ -9845,10 +9781,8 @@
                 "description": "消費税額（指定しない場合は自動で計算されます）"
               },
               "description": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "備考",
                 "description": "備考"
               }
@@ -9936,10 +9870,8 @@
           "description": "決算整理仕訳フラグ（falseまたは未指定の場合: 日常仕訳）"
         },
         "txn_number": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "2CX05",
           "description": "仕訳番号"
         },
@@ -9992,66 +9924,50 @@
                 "description": "税区分ID"
               },
               "partner_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "取引先ID"
               },
               "partner_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "freee",
                 "description": "取引先名"
               },
               "partner_code": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "code001",
                 "description": "取引先コード"
               },
               "partner_long_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "freee株式会社",
                 "description": "正式名称（255文字以内）"
               },
               "item_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "品目ID"
               },
               "item_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "会計freee",
                 "description": "品目"
               },
               "section_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "部門ID"
               },
               "section_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "開発部",
                 "description": "部門"
               },
@@ -10188,18 +10104,14 @@
               "description": "事業所ID"
             },
             "name": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "freee事務所",
               "description": "事業所の正式名称 (100文字以内)"
             },
             "name_kana": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "フリージムショ",
               "description": "正式名称フリガナ (100文字以内)"
             },
@@ -10214,18 +10126,14 @@
               "description": "源泉徴収税計算（0: 消費税を含める、1: 消費税を含めない）"
             },
             "contact_name": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "user1",
               "description": "担当者名 (50文字以内)"
             },
             "head_count": {
-              "type": [
-                "integer",
-                "null"
-              ],
+              "type": "integer",
+              "x-nullable": true,
               "example": 1,
               "minimum": 0,
               "maximum": 7,
@@ -10280,18 +10188,14 @@
               "description": "電話番号１"
             },
             "phone2": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "090-1234-5678",
               "description": "電話番号２"
             },
             "fax": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "03-1234-5678",
               "description": "FAX"
             },
@@ -10435,18 +10339,14 @@
               "description": "事業所ID"
             },
             "name": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "freee事務所",
               "description": "事業所の正式名称 (100文字以内)"
             },
             "name_kana": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "フリージムショ",
               "description": "正式名称フリガナ (100文字以内)"
             },
@@ -10461,18 +10361,14 @@
               "description": "源泉徴収税計算（0: 消費税を含める、1: 消費税を含めない）"
             },
             "contact_name": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "user1",
               "description": "担当者名 (50文字以内)"
             },
             "head_count": {
-              "type": [
-                "integer",
-                "null"
-              ],
+              "type": "integer",
+              "x-nullable": true,
               "example": 1,
               "minimum": 0,
               "maximum": 7,
@@ -10527,18 +10423,14 @@
               "description": "電話番号１"
             },
             "phone2": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "090-1234-5678",
               "description": "電話番号２"
             },
             "fax": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "03-1234-5678",
               "description": "FAX"
             },
@@ -10843,10 +10735,8 @@
           "description": "勘定科目の使用設定（true: 使用する、false: 使用しない）"
         },
         "walletable_id": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "example": 1,
           "description": "口座ID"
         }
@@ -10871,26 +10761,20 @@
           "description": "事業所ID"
         },
         "name": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "メモタグ",
           "description": "名前(30文字以内)"
         },
         "shortcut1": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "MEMOTAG",
           "description": "ショートカット1 (255文字以内)"
         },
         "shortcut2": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "123",
           "description": "ショートカット2 (255文字以内)"
         }
@@ -10905,7 +10789,7 @@
         "partners": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/partnersResponse/properties/partner"
+            "$ref": "#/definitions/partnerResponse"
           }
         }
       }
@@ -10917,257 +10801,214 @@
       ],
       "properties": {
         "partner": {
+          "$ref": "#/definitions/partnerResponse"
+        }
+      }
+    },
+    "partnerResponse": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "company_id"
+      ],
+      "allOf": [
+        {
           "type": "object",
           "required": [
             "id",
-            "name",
-            "company_id"
+            "code",
+            "company_id",
+            "name"
           ],
-          "allOf": [
-            {
-              "type": "object",
-              "required": [
-                "id",
-                "code",
-                "company_id",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "integer",
-                  "example": 1,
-                  "description": "取引先ID"
-                },
-                "code": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "code001",
-                  "description": "取引先コード"
-                },
-                "company_id": {
-                  "type": "integer",
-                  "example": 1,
-                  "description": "事業所ID"
-                },
-                "name": {
-                  "type": "string",
-                  "example": "ABC商店",
-                  "description": "取引先名"
-                },
-                "shortcut1": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "ABC",
-                  "description": "ショートカット1 (20文字以内)"
-                },
-                "shortcut2": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "501",
-                  "description": "ショートカット2 (20文字以内)"
-                }
-              }
+          "properties": {
+            "id": {
+              "type": "integer",
+              "example": 1,
+              "description": "取引先ID"
             },
-            {
-              "type": "object",
-              "properties": {
-                "long_name": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "新しい取引先正式名称",
-                  "description": "正式名称（255文字以内）"
-                },
-                "name_kana": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "アタラシイトリヒキサキメイショウ",
-                  "description": "カナ名称（255文字以内）"
-                },
-                "default_title": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "御中",
-                  "enum": [
-                    "御中",
-                    "様",
-                    "(空白)"
-                  ],
-                  "description": "敬称（御中、様、(空白)の3つから選択）"
-                },
-                "phone": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "03-0987-6543",
-                  "description": "電話番号"
-                },
-                "contact_name": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "営業担当",
-                  "description": "営業担当者名"
-                },
-                "email": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "email@freee.co.jp",
-                  "description": "営業担当者 メールアドレス"
-                },
-                "address_attributes[zipcode]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "012-0009",
-                  "description": "郵便番号"
-                },
-                "address_attributes[prefecture_code]": {
-                  "type": "integer",
-                  "example": 4,
-                  "minimum": 0,
-                  "maximum": 46,
-                  "description": "都道府県コード（0:北海道、1:青森、2:岩手、3:宮城、4:秋田、5:山形、6:福島、7:茨城、8:栃木、9:群馬、10:埼玉、11:千葉、12:東京、13:神奈川、14:新潟、15:富山、16:石川、17:福井、18:山梨、19:長野、20:岐阜、21:静岡、22:愛知、23:三重、24:滋賀、25:京都、26:大阪、27:兵庫、28:奈良、29:和歌山、30:鳥取、31:島根、32:岡山、33:広島、34:山口、35:徳島、36:香川、37:愛媛、38:高知、39:福岡、40:佐賀、41:長崎、42:熊本、43:大分、44:宮崎、45:鹿児島、46:沖縄"
-                },
-                "address_attributes[street_name1]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "湯沢市",
-                  "description": "市区町村・番地"
-                },
-                "address_attributes[street_name2]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "Aビル",
-                  "description": "建物名・部屋番号など"
-                },
-                "partner_doc_setting_attributes[sending_method]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "enum": [
-                    "mail",
-                    "posting",
-                    "main_and_posting",
-                    null
-                  ],
-                  "example": "posting",
-                  "description": "請求書送付方法(mail:メール、posting:郵送、mail_and_posting:メールと郵送)"
-                },
-                "partner_bank_account_attributes[bank_name]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "みずほ銀行",
-                  "description": "銀行名"
-                },
-                "partner_bank_account_attributes[bank_name_kana]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "ミズホ",
-                  "description": "銀行名（カナ）"
-                },
-                "partner_bank_account_attributes[bank_code]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "001",
-                  "description": "銀行番号"
-                },
-                "partner_bank_account_attributes[branch_name]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "銀座支店",
-                  "description": "支店名"
-                },
-                "partner_bank_account_attributes[branch_kana]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "ギンザ",
-                  "description": "支店名（カナ）"
-                },
-                "partner_bank_account_attributes[branch_code]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "フリータロウ",
-                  "description": "受取人名（カナ）"
-                },
-                "partner_bank_account_attributes[account_type]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "enum": [
-                    "ordinary",
-                    "checking",
-                    "earmarked",
-                    "savings",
-                    "other",
-                    null
-                  ],
-                  "example": "ordinary",
-                  "description": "口座種別(ordinary:普通、checking:当座、earmarked:納税準備預金、savings:貯蓄、other:その他)"
-                },
-                "partner_bank_account_attributes[account_number]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "1010101",
-                  "description": "口座番号"
-                },
-                "partner_bank_account_attributes[account_name]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "フリータロウ",
-                  "description": "受取人名（カナ）"
-                },
-                "partner_bank_account_attributes[long_account_name]": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "example": "freee太郎",
-                  "description": "受取人名"
-                }
-              }
+            "code": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "code001",
+              "description": "取引先コード"
+            },
+            "company_id": {
+              "type": "integer",
+              "example": 1,
+              "description": "事業所ID"
+            },
+            "name": {
+              "type": "string",
+              "example": "ABC商店",
+              "description": "取引先名"
+            },
+            "shortcut1": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "ABC",
+              "description": "ショートカット1 (20文字以内)"
+            },
+            "shortcut2": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "501",
+              "description": "ショートカット2 (20文字以内)"
             }
-          ]
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "long_name": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "新しい取引先正式名称",
+              "description": "正式名称（255文字以内）"
+            },
+            "name_kana": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "アタラシイトリヒキサキメイショウ",
+              "description": "カナ名称（255文字以内）"
+            },
+            "default_title": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "御中",
+              "enum": [
+                "御中",
+                "様",
+                "(空白)"
+              ],
+              "description": "敬称（御中、様、(空白)の3つから選択）"
+            },
+            "phone": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "03-0987-6543",
+              "description": "電話番号"
+            },
+            "contact_name": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "営業担当",
+              "description": "営業担当者名"
+            },
+            "email": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "email@freee.co.jp",
+              "description": "営業担当者 メールアドレス"
+            },
+            "address_attributes[zipcode]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "012-0009",
+              "description": "郵便番号"
+            },
+            "address_attributes[prefecture_code]": {
+              "type": "integer",
+              "example": 4,
+              "minimum": 0,
+              "maximum": 46,
+              "description": "都道府県コード（0:北海道、1:青森、2:岩手、3:宮城、4:秋田、5:山形、6:福島、7:茨城、8:栃木、9:群馬、10:埼玉、11:千葉、12:東京、13:神奈川、14:新潟、15:富山、16:石川、17:福井、18:山梨、19:長野、20:岐阜、21:静岡、22:愛知、23:三重、24:滋賀、25:京都、26:大阪、27:兵庫、28:奈良、29:和歌山、30:鳥取、31:島根、32:岡山、33:広島、34:山口、35:徳島、36:香川、37:愛媛、38:高知、39:福岡、40:佐賀、41:長崎、42:熊本、43:大分、44:宮崎、45:鹿児島、46:沖縄"
+            },
+            "address_attributes[street_name1]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "湯沢市",
+              "description": "市区町村・番地"
+            },
+            "address_attributes[street_name2]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "Aビル",
+              "description": "建物名・部屋番号など"
+            },
+            "partner_doc_setting_attributes[sending_method]": {
+              "type": "string",
+              "x-nullable": true,
+              "enum": [
+                "mail",
+                "posting",
+                "main_and_posting",
+                null
+              ],
+              "example": "posting",
+              "description": "請求書送付方法(mail:メール、posting:郵送、mail_and_posting:メールと郵送)"
+            },
+            "partner_bank_account_attributes[bank_name]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "みずほ銀行",
+              "description": "銀行名"
+            },
+            "partner_bank_account_attributes[bank_name_kana]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "ミズホ",
+              "description": "銀行名（カナ）"
+            },
+            "partner_bank_account_attributes[bank_code]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "001",
+              "description": "銀行番号"
+            },
+            "partner_bank_account_attributes[branch_name]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "銀座支店",
+              "description": "支店名"
+            },
+            "partner_bank_account_attributes[branch_kana]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "ギンザ",
+              "description": "支店名（カナ）"
+            },
+            "partner_bank_account_attributes[branch_code]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "フリータロウ",
+              "description": "受取人名（カナ）"
+            },
+            "partner_bank_account_attributes[account_type]": {
+              "type": "string",
+              "x-nullable": true,
+              "enum": [
+                "ordinary",
+                "checking",
+                "earmarked",
+                "savings",
+                "other",
+                null
+              ],
+              "example": "ordinary",
+              "description": "口座種別(ordinary:普通、checking:当座、earmarked:納税準備預金、savings:貯蓄、other:その他)"
+            },
+            "partner_bank_account_attributes[account_number]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "1010101",
+              "description": "口座番号"
+            },
+            "partner_bank_account_attributes[account_name]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "フリータロウ",
+              "description": "受取人名（カナ）"
+            },
+            "partner_bank_account_attributes[long_account_name]": {
+              "type": "string",
+              "x-nullable": true,
+              "example": "freee太郎",
+              "description": "受取人名"
+            }
+          }
         }
-      }
+      ]
     },
     "taxesIndexResponse": {
       "type": "object",
@@ -11269,10 +11110,8 @@
                 "description": "税区分名（日本語表示用）"
               },
               "display_category": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "enum": [
                   "tax_5",
                   "tax_8",
@@ -11321,10 +11160,8 @@
                 "description": "口座名 (255文字以内)"
               },
               "bank_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "サービスID"
               },
@@ -11550,10 +11387,8 @@
           "description": "振替日 (yyyy-mm-dd)"
         },
         "from_walletable_type": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "enum": [
             "bank_account",
             "wallet",
@@ -11569,10 +11404,8 @@
           "description": "振替元口座ID"
         },
         "to_walletable_type": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "enum": [
             "bank_account",
             "wallet",
@@ -11618,42 +11451,32 @@
               "description": "メールアドレス"
             },
             "display_name": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "フリー太郎",
               "description": "表示ユーザー名"
             },
             "first_name": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "太郎",
               "description": "名"
             },
             "last_name": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "フリー",
               "description": "姓"
             },
             "first_name_kana": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "タロウ",
               "description": "名（カナ）"
             },
             "last_name_kana": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "フリー",
               "description": "姓（カナ）"
             },
@@ -12007,18 +11830,14 @@
               "description": "ステータス"
             },
             "description": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "タクシー利用",
               "description": "メモ"
             },
             "mime_type": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": "string",
+              "x-nullable": true,
               "example": "image/png",
               "description": "MIMEタイプ"
             },
@@ -12067,10 +11886,8 @@
                   "description": "メールアドレス"
                 },
                 "display_name": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
+                  "type": "string",
+                  "x-nullable": true,
                   "example": "フリー太郎",
                   "description": "表示名"
                 }
@@ -12633,10 +12450,8 @@
           "example": 1
         },
         "approver_id": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "description": "承認者ID",
           "example": 1
         },
@@ -12730,26 +12545,20 @@
           "example": "プロジェクトA"
         },
         "description": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "description": "備考",
           "example": "備考"
         },
         "shortcut1": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "description": "ショートカット１ (20文字以内)",
           "example": "A"
         },
         "shortcut2": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "description": "ショートカット２ (20文字以内)",
           "example": "123"
         }
@@ -12854,18 +12663,14 @@
           "description": "請求日 (yyyy-mm-dd)"
         },
         "partner_id": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "example": 201,
           "description": "取引先ID"
         },
         "partner_code": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "code001",
           "description": "取引先コード"
         },
@@ -12875,18 +12680,14 @@
           "description": "請求書番号"
         },
         "title": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "請求書",
           "description": "タイトル"
         },
         "due_date": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "2013-02-28",
           "description": "期日 (yyyy-mm-dd)"
         },
@@ -12906,18 +12707,14 @@
           "description": "小計"
         },
         "booking_date": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "2013-01-01",
           "description": "売上計上日"
         },
         "description": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "８月分請求書",
           "description": "概要"
         },
@@ -12943,42 +12740,32 @@
           "description": "入金ステータス  (unsettled: 入金待ち, settled: 入金済み)"
         },
         "payment_date": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "2013-03-01",
           "description": "入金日"
         },
         "web_published_at": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "2013-03-01 10:00:00",
           "description": "Web共有日時(最新)"
         },
         "web_downloaded_at": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "2013-03-01 10:00:00",
           "description": "Web共有ダウンロード日時(最新)"
         },
         "web_confirmed_at": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "2013-03-01 10:00:00",
           "description": "Web共有取引先確認日時(最新)"
         },
         "mail_sent_at": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "2013-03-01 10:00:00",
           "description": "メール送信日時(最新)"
         },
@@ -12999,26 +12786,20 @@
           "description": "郵送ステータス(unrequested: リクエスト前, preview_registered: プレビュー登録, preview_failed: プレビュー登録失敗, ordered: 注文中, order_failed: 注文失敗, printing: 印刷中, canceled: キャンセル, posted: 投函済み)"
         },
         "partner_name": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "freeeパートナー",
           "description": "取引先名"
         },
         "partner_long_name": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "株式会社freeeパートナー",
           "description": "取引先正式名称"
         },
         "partner_title": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "御中",
           "enum": [
             "御中",
@@ -13028,52 +12809,40 @@
           "description": "敬称（御中、様、(空白)の3つから選択）"
         },
         "partner_zipcode": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "012-0009",
           "description": "郵便番号"
         },
         "partner_prefecture_code": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "example": 4,
           "minimum": 0,
           "maximum": 46,
           "description": "都道府県コード（0:北海道、1:青森、2:岩手、3:宮城、4:秋田、5:山形、6:福島、7:茨城、8:栃木、9:群馬、10:埼玉、11:千葉、12:東京、13:神奈川、14:新潟、15:富山、16:石川、17:福井、18:山梨、19:長野、20:岐阜、21:静岡、22:愛知、23:三重、24:滋賀、25:京都、26:大阪、27:兵庫、28:奈良、29:和歌山、30:鳥取、31:島根、32:岡山、33:広島、34:山口、35:徳島、36:香川、37:愛媛、38:高知、39:福岡、40:佐賀、41:長崎、42:熊本、43:大分、44:宮崎、45:鹿児島、46:沖縄"
         },
         "partner_prefecture_name": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "秋田県",
           "description": "都道府県"
         },
         "partner_address1": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "湯沢市",
           "description": "市区町村・番地"
         },
         "partner_address2": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "Aビル",
           "description": "建物名・部屋番号など"
         },
         "partner_contact_info": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "営業担当",
           "description": "取引先担当者名"
         },
@@ -13083,52 +12852,40 @@
           "description": "事業所名"
         },
         "company_zipcode": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "141-0031",
           "description": "郵便番号"
         },
         "company_prefecture_code": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "example": 12,
           "minimum": 0,
           "maximum": 46,
           "description": "都道府県コード（0:北海道、1:青森、2:岩手、3:宮城、4:秋田、5:山形、6:福島、7:茨城、8:栃木、9:群馬、10:埼玉、11:千葉、12:東京、13:神奈川、14:新潟、15:富山、16:石川、17:福井、18:山梨、19:長野、20:岐阜、21:静岡、22:愛知、23:三重、24:滋賀、25:京都、26:大阪、27:兵庫、28:奈良、29:和歌山、30:鳥取、31:島根、32:岡山、33:広島、34:山口、35:徳島、36:香川、37:愛媛、38:高知、39:福岡、40:佐賀、41:長崎、42:熊本、43:大分、44:宮崎、45:鹿児島、46:沖縄"
         },
         "company_prefecture_name": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "東京都",
           "description": "都道府県"
         },
         "company_address1": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "品川区西五反田２丁目８−１",
           "description": "市区町村・番地"
         },
         "company_address2": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "五反田ファーストビル 9F",
           "description": "建物名・部屋番号など"
         },
         "company_contact_info": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "法人営業担当",
           "description": "事業所担当者名"
         },
@@ -13143,26 +12900,20 @@
           "description": "支払方法 (振込: transfer, 引き落とし: direct_debit)"
         },
         "payment_bank_info": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "楽天銀行 第一営業支店 724937",
           "description": "支払口座"
         },
         "message": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "下記の通りご請求申し上げます。",
           "description": "メッセージ"
         },
         "notes": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": "string",
+          "x-nullable": true,
           "example": "毎度ありがとうございます",
           "description": "備考"
         },
@@ -13192,10 +12943,8 @@
           "description": "請求書の消費税計算方法(inclusive: 内税, exclusive: 外税)"
         },
         "deal_id": {
-          "type": [
-            "integer",
-            "null"
-          ],
+          "type": "integer",
+          "x-nullable": true,
           "example": null,
           "description": "取引ID (invoice_statusがissuedの時のみIDが表示されます)"
         },
@@ -13251,10 +13000,8 @@
                 "description": "数量"
               },
               "unit": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "個",
                 "description": "単位"
               },
@@ -13279,66 +13026,50 @@
                 "description": "軽減税率税区分（true: 対象、false: 対象外）"
               },
               "description": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "備考",
                 "description": "備考"
               },
               "account_item_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "勘定科目ID"
               },
               "account_item_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "売上",
                 "description": "勘定科目名"
               },
               "tax_code": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "税区分コード"
               },
               "item_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "品目ID"
               },
               "item_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "会計freee",
                 "description": "品目"
               },
               "section_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "部門ID"
               },
               "section_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "開発部",
                 "description": "部門"
               },
@@ -13359,50 +13090,38 @@
                 }
               },
               "segment_1_tag_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "セグメント１ID"
               },
               "segment_1_tag_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "セグメント１",
                 "description": "セグメント１ID"
               },
               "segment_2_tag_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "セグメント２ID"
               },
               "segment_2_tag_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "セグメント２",
                 "description": "セグメント２"
               },
               "segment_3_tag_id": {
-                "type": [
-                  "integer",
-                  "null"
-                ],
+                "type": "integer",
+                "x-nullable": true,
                 "example": 1,
                 "description": "セグメント３ID"
               },
               "segment_3_tag_name": {
-                "type": [
-                  "string",
-                  "null"
-                ],
+                "type": "string",
+                "x-nullable": true,
                 "example": "セグメント３",
                 "description": "セグメント３"
               }
